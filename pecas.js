@@ -11,7 +11,7 @@ else
 
 let listaPecas = ["Pneu", "Volante", "Pistão", "Buzina", "Carburador", "Válvulas", "Correia", "SuperCharger", "Para-brisa", "Abafador"]
 
-if (listaPecas.length > 10)
+if (listaPecas.length < 10)
 {
     console.log("Espaço disponível!")
 }
